@@ -1,11 +1,13 @@
 import React from 'react';
 import '../../css/App.css';
 import { NavLink } from 'react-router-dom';
-import { faSearch } from '@fortawesome/free-solid-svg-icons';
+// import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import { faGift } from '@fortawesome/free-solid-svg-icons';
 import { faBell } from '@fortawesome/free-solid-svg-icons';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import SearchArea from './SearchArea.jsx';
+
 
 
 const NavBar = () => {
@@ -24,7 +26,7 @@ const NavBar = () => {
                     <div className="search">
                         <ul>
                             <li>
-                                <NavLink to=""><FontAwesomeIcon icon={faSearch} /></NavLink>
+                                <NavLink to=""></NavLink>
                             </li>
                             <li>
                                 <NavLink to=""><FontAwesomeIcon icon={faGift} /></NavLink>
