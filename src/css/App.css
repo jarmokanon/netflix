@@ -1,17 +1,19 @@
 body {
     background: black;
 }
-
+#put{
+    color: white;
+}
 .App-content {
     width: 100%;
     height: 100%;
     /* background: black; */
     background-color: repeat black;
     margin: 0 auto;
-    position: absolute;
-    /* overflow: hidden; */
-    /* left: 0;
-    right: 0; */
+    /* position: absolute; */
+    overflow: hidden;
+    left: 0;
+    right: 0;
     color: white;
 }
 .links {
@@ -19,7 +21,7 @@ body {
 }
 .search {
     padding: 0px;
-    margin-right: -100px;
+    margin-right: 0px;
     margin: none;
     color: white;
     text-align: center;
